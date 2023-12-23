@@ -1,0 +1,97 @@
+@media (max-width: 414px) {
+    body {
+        font-size: 3vw;
+    }
+
+    .header_description,
+    .nlo,
+    .circle_blocks,
+    .details,
+    .details_blocks,
+    .plates_items,
+    footer {
+
+        margin-top: 11px;
+    }
+
+    .nlo_items,
+    .details_blocks {
+        margin-bottom: 11px;
+    }
+
+    .nlo_none {
+        display: none;
+    }
+
+    .circle_none {
+        display: none;
+    }
+
+    .circle_block {
+        height: 173px;
+    }
+
+    .details_false {
+        display: none;
+    }
+
+    .details_true {
+        display: block;
+        margin-bottom: 11px;
+    }
+
+    .details_flex {
+        display: flex;
+        gap: 4px;
+    }
+
+    .details-step {
+        margin-top: 0px;
+    }
+
+    .details_top {
+        margin-left: -4%;
+    }
+
+    .details_bottom {
+        margin-left: -4%;
+    }
+
+    .details_right-top {
+        margin-left: -8%;
+        top: 1%;
+    }
+
+    .details_right-bottom {
+        margin-left: -8%;
+        bottom: 1%;
+    }
+
+    .ellipse_img {
+        width: 11px;
+        height: 11px;
+    }
+
+    #motor-svg {
+        width: 407px;
+        height: 200px;
+    }
+
+    @keyframes moveNloCircular {
+        0% {
+            transform: translate(0, -15%);
+        }
+        25% {
+            transform: translate(15%, 0);
+        }
+        50% {
+            transform: translate(0, 15%);
+        }
+        75% {
+            transform: translate(-15%, 0);
+        }
+        100% {
+            transform: translate(0, -15%);
+        }
+    }
+}

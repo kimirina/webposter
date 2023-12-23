@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #ffffff;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: 'Neutral Face';
+}
+
+span {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1436px;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.title marquee {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.title marquee span {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.header_description {
+    margin-top: 22px;
+}
+
+.nlo {
+    margin-top: 22px;
+}
+
+.nlo_items {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 22px;
+}
+
+.nlo_item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 1.4%;
+}
+
+.circle_blocks {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 22px;
+}
+
+.circle_block {
+    position: relative;
+    border: 2px solid white;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    margin-top: 22px;
+}
+
+.details_true {
+    display: none;
+}
+
+.details_blocks {
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    gap: 4px;
+}
+
+.details_block {
+    position: relative;
+    border: 2px solid white;
+    padding: 5%;
+    overflow: visible;
+    text-align: center;
+}
+
+.details-step {
+    margin-top: 4px;
+}
+
+.plates_items {
+    margin-top: 22px;
+    border: 2px solid white;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 8%;;
+    align-items: center;
+    position: relative;
+}
+
+.palate-tep {
+    margin-top: 15%;
+}
+
+footer {
+    margin-top: 22px;
+}
+
+/*Позиционируем точки в блоках элемента*/
+.ellipse {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ellipse_img {
+    width: 22px;
+    height: 22px;
+}
+
+.nlo_bottom {
+    width: 98%;
+    bottom: 2%;
+}
+
+.details_top {
+    width: 98%;
+    margin-left: -6%;
+    top: 1%;
+}
+
+.details_bottom {
+    width: 98%;
+    margin-left: -6.4%;
+    bottom: 1%;
+}
+
+.details_right-top {
+    width: 94%;
+    margin-left: -2%;
+    top: 2%;
+}
+
+.details_right-bottom {
+    width: 94%;
+    margin-left: -2%;
+    bottom: 2%;
+}
+
+.circle_bottom {
+    width: 98%;
+    bottom: 1%;
+}
+
+.circle_top {
+    width: 98%;
+    top: 1%;
+}
+
+.plates_top {
+    width: 98.6%;
+    top: 1%;
+    margin-left: -7.4%;
+}
+
+.plates_bottom {
+    width: 98.6%;
+    margin-left: -7.4%;
+    bottom: 1%;
+}
+
+

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Neutral Face';
+    src: local('Neutral Face Regular'), local('Neutral-Face-Regular'),
+    url('NeutralFaceRegular.woff2') format('woff2'),
+    url('NeutralFaceRegular.woff') format('woff'),
+    url('NeutralFaceRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}

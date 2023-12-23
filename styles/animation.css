@@ -1,0 +1,182 @@
+/*Движение первой НЛО слева на право*/
+#nloOne {
+    animation: nloOne 4s linear infinite;
+}
+
+@keyframes nloOne {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(5%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+    75% {
+        transform: translateX(-5%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Движение второй НЛО вверх и вниз*/
+#nloTwo {
+    animation: nloTwo 4s linear infinite;
+}
+
+@keyframes nloTwo {
+    0%, 100% {
+        transform: translateY(-40%);
+    }
+    50% {
+        transform: translateY(30%);
+    }
+}
+
+/*Движение третьей НЛО справа на лево*/
+#nloThree {
+    animation: nloThree 4s linear infinite;
+}
+
+@keyframes nloThree {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(0px, 10%);
+    }
+    50% {
+        transform: translate(0px, 0);
+    }
+    75% {
+        transform: translate(4%, -4%);
+    }
+    50% {
+        transform: translate(0px, -10%);
+    }
+}
+
+/*Движение первой тарелки по радиусу*/
+#movingOne {
+    animation: moveNloCircular 7s linear infinite;
+    animation-delay: 0s;
+}
+
+@keyframes moveNloCircular {
+    0% {
+        transform: translate(0, -20%);
+    }
+    25% {
+        transform: translate(20%, 0);
+    }
+    50% {
+        transform: translate(0, 20%);
+    }
+    75% {
+        transform: translate(-20%, 0);
+    }
+    100% {
+        transform: translate(0, -20%);
+    }
+}
+
+/*Движение второй тарелки вверх и вниз*/
+#movingTwo {
+    animation: moveUpDown 7s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*Движение третьей тарелки в хаотичном направление*/
+#movingThree {
+    animation: movingThree 6s infinite;
+    animation-delay: 0s;
+}
+
+@keyframes movingThree {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 100%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/*Добавляем цвет при наведение на мотор*/
+.myPath {
+    z-index: 1000;
+    cursor: pointer;
+    transition: fill 0.3s ease; /* Плавность изменения цвета */
+}
+
+.myPath:hover {
+    fill: #F3712C;
+    stroke: #F3712C;
+}
+
+/*Красим мотор */
+#motor-yellow {
+    position: relative;
+    animation: colorChange 3s infinite;
+    fill: #F3712C;
+    stroke: #F3712C;
+}
+
+@keyframes colorChange {
+    0%, 100% {
+        fill: #F3712C;
+        stroke: #F3712C;
+    }
+    50% {
+        fill: #FFFFFF;
+        stroke: #FFFFFF;
+    }
+}
+
+/*Движение деталей*/
+#img_spin,
+#img_line {
+    animation: spin 8s linear infinite;
+    transform-origin: center;
+    animation-delay: 0s;
+}
+
+#img_motor {
+    animation: spin 8s linear infinite;
+    transform-origin: 169.559px 230.627px;
+    animation-delay: 0s;
+}
+
+#img_motor-two {
+    animation: spin 8s linear infinite;
+    transform-origin: 225.051px 252.765px;
+    animation-delay: 0s;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
