@@ -7,6 +7,10 @@
     --color-6: #3399ff;
 }
 
+path {
+    vector-effect: non-scaling-stroke;
+}
+
 @keyframes styleOne {
     0%, 100% {
         stroke: var(--color-1);
@@ -72,6 +76,15 @@
     animation-delay: 4s;
 }
 
+.img-test {
+    position: absolute;
+    width: 101%;
+    height: 106%;
+    top: 93%;
+    left: 3%;
+
+}
+
 
 /*Задаём стили для веревок между блоками*/
 #nlo_line1-img {
@@ -89,7 +102,7 @@
     width: 95%;
     position: absolute;
     left: -46%;
-    top: 86%;
+    top: 92%;
 }
 
 #nlo_line3-img {
@@ -340,8 +353,8 @@
     height: 102%;
     width: 95%;
     position: absolute;
-    left: 1%;
-    top: 57%;
+    left: 2%;
+    top: 59%;
 }
 
 #line003-img {
@@ -354,10 +367,10 @@
 
 #line004-img {
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: absolute;
-    left: 46%;
-    top: -17%;
+    left: -5%;
+    top: -74%;
 }
 
 #line005-img {
@@ -372,16 +385,16 @@
     height: 79%;
     width: 100%;
     position: absolute;
-    left: -5%;
-    top: 94%;
+    left: -6%;
+    top: 89%;
 }
 
 #line007-img {
     height: 54%;
     width: 25%;
     position: absolute;
-    left: -2%;
-    top: 92%;
+    left: -4%;
+    top: 93%;
 }
 
 #line008-img {
@@ -401,18 +414,18 @@
 }
 
 #line010-img {
-    height: 90%;
+    height: 87%;
     width: 101%;
     position: absolute;
     left: 3%;
-    top: -51%;
+    top: -48%;
 }
 
 #line011-img {
     height: 132%;
     width: 16%;
     position: absolute;
-    left: 89%;
+    left: 86%;
     top: -32%;
 }
 
@@ -511,6 +524,38 @@
 
 }
 
+@media (max-width: 1440px) {
+    #nlo_line1-img path {
+        d: path("M1 0.971924C52.229 94.741 99.9078 85.6759 223 68");
+    }
+
+    #nlo_line2-img {
+        top: 87%;
+    }
+
+    #nlo_line3-img {
+        top: 88%;
+    }
+
+    #nlo_line4-img {
+        top: 94%;
+    }
+
+    #nlo_line5-img {
+        z-index: -100;
+        height: 157%;
+    }
+
+    #nlo_line6-img path {
+        d: path("M490 1C287.065 183.029 193.897 171.222 0.5 160");
+    }
+
+    #nlo_line7-img {
+        top: 88%;
+    }
+
+}
+
 @media (max-width: 1400px) {
     #nlo_line1-img path {
         d: path("M1 -10C52.229 94.741 99.9078 85.6759 223 75");
@@ -582,7 +627,12 @@
     }
 }
 
+
 @media (max-width: 1350px) {
+    #nlo_line2-img {
+        top: 88%;
+    }
+
     #details_line22-img path {
         d: path("M1 -20.5C248.178 373.018 398.33 618.399 423 560");
     }
@@ -939,6 +989,11 @@
 }
 
 @media (max-width: 845px) {
+    #nlo_line2-img {
+        height: 69%;
+        top: 90%;
+    }
+
     #nlo_line3-img path {
         d: path("M0 120C98.2943 189.194 118.709 233.906 490 -195.5");
     }
@@ -1571,36 +1626,41 @@
     .line {
         display: block;
     }
-
-    #line002-img path {
-        d: path("M2.5 0.5C78.9263 49.1905 81.052 118.9967 183.5 103");
-    }
 }
 
 @media (max-width: 360px) {
-    #line004-img {
-        left: 46%;
-        width: 49%;
+    #line002-img path {
+        d: path("M0.5 0.5C78.9263 49.1905 81.052 118.9967 183.5 88");
     }
 
+
     #line004-img path {
-        d: path("M1.5 -14C73.8591 53.0116 119.316 93.009 206.5 92.5");
+        d: path("M0.5 -5C73.8591 53.0116 119.316 93.009 306.5 98");
+    }
+
+    #line005-img path {
+        d: path("M9.5 90C104.675 63.7204 184.665 90.9344 183.5 -3");
     }
 
     #line006-img path {
-        d: path("M10.5 -50.5C115.955 58.8725 184.326 94.6845 183.5 54.5");
+        d: path("M17 -30C115.955 58.8725 184.326 94.6845 183.5 54.5");
     }
 
     #line007-img {
-        top: 92%;
+        height: 50%;
+        left: -3%;
     }
 
     #line010-img path {
-        d: path("M0.5 65.5C150.453 80.7397 208.951 79.7416 175 -40");
+        d: path("M0.5 55C150.453 80.7397 208.951 79.7416 175 -32");
+    }
+
+    #line015-img path {
+        d: path("M2.5 -15C198.674 43.8045 389.331 126.288 389.5 23.5");
     }
 
     #line016-img path {
-        d: path("M15 -45C253.815 73.3641 391.625 112.082 388.5 55");
+        d: path("M15 -39C253.815 73.3641 391.625 112.082 388.5 55");
     }
 
     #line017-img {
@@ -1608,7 +1668,7 @@
     }
 
     #line017-img path {
-        d: path("M390 1C318.173 130.623 240.299 102.858 10 110");
+        d: path("M390 1C318.173 130.623 240.299 102.858 15 100");
     }
 
     #line018-img {

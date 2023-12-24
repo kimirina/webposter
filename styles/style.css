@@ -32,6 +32,7 @@ svg {
     border: 2px solid white;
     padding-bottom: 10px;
     padding-top: 10px;
+    z-index: -0;
 }
 
 .title marquee {
@@ -67,6 +68,7 @@ svg {
     align-items: center;
     border: 2px solid white;
     padding: 1.4%;
+    z-index: -100;
 }
 
 .circle_blocks {
@@ -83,6 +85,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -101;
 }
 
 .details {
@@ -106,6 +109,7 @@ svg {
     padding: 5%;
     overflow: visible;
     text-align: center;
+    z-index: -101;
 }
 
 .details-step {
@@ -121,6 +125,7 @@ svg {
     padding-left: 8%;;
     align-items: center;
     position: relative;
+    z-index: -100;
 }
 
 .palate-tep {
@@ -139,10 +144,13 @@ footer {
 }
 
 .ellipse_img {
-    width: 22px;
-    height: 22px;
+    z-index: -101;
+    width: 25px;
+    height: 25px
 }
-
+.ellipse_img-circle{
+    stroke-width: 2;
+}
 .nlo_bottom {
     width: 98%;
     bottom: 2%;

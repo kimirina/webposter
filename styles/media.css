@@ -1,3 +1,16 @@
+@media (max-width: 768px) {
+    .nlo_item,
+    .title,
+    .circle_block,
+    .details_block,
+    .plates_items{
+        border: 1px solid white;
+    }
+
+    .ellipse_img-circle{
+        stroke-width: 1;
+    }
+}
 @media (max-width: 414px) {
     body {
         font-size: 3vw;
@@ -43,6 +56,7 @@
     .details_flex {
         display: flex;
         gap: 4px;
+        z-index: -101;
     }
 
     .details-step {
