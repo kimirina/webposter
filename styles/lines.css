@@ -76,16 +76,6 @@ path {
     animation-delay: 4s;
 }
 
-.img-test {
-    position: absolute;
-    width: 101%;
-    height: 106%;
-    top: 93%;
-    left: 3%;
-
-}
-
-
 /*Задаём стили для проводов между блоками*/
 #nlo_line1-img {
     z-index: -100;
@@ -164,8 +154,8 @@ path {
     height: 123%;
     width: 87%;
     position: absolute;
-    left: -53%;
-    top: -17%;
+    left: -52%;
+    top: -19%;
 }
 
 #details_line10-img {
