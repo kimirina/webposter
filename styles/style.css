@@ -68,7 +68,7 @@ svg {
     align-items: center;
     border: 2px solid white;
     padding: 1.4%;
-    z-index: -100;
+    z-index: 1001;
 }
 
 .circle_blocks {
@@ -85,7 +85,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -101;
+    z-index: 1001;
 }
 
 .details {
@@ -109,7 +109,7 @@ svg {
     padding: 5%;
     overflow: visible;
     text-align: center;
-    z-index: -101;
+    z-index: 1001;
 }
 
 .details-step {
@@ -144,10 +144,12 @@ footer {
 }
 
 .ellipse_img {
-    z-index: -101;
-    width: 25px;
-    height: 25px
+    fill: #000;
+    z-index: 1000;
+    width: 26px;
+    height: 26px;
 }
+
 .ellipse_img-circle{
     stroke-width: 2;
 }

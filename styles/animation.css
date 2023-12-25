@@ -1,4 +1,4 @@
-/*Движение первой НЛО слева на право*/
+/*Движение первой НЛО слева направо*/
 #nloOne {
     animation: nloOne 4s linear infinite;
 }
@@ -35,7 +35,7 @@
     }
 }
 
-/*Движение третьей НЛО справа на лево*/
+/*Движение третьей НЛО справа налево*/
 #nloThree {
     animation: nloThree 4s linear infinite;
 }
@@ -100,7 +100,7 @@
     }
 }
 
-/*Движение третьей тарелки в хаотичном направление*/
+/*Движение третьей тарелки в хаотичном направлени*/
 #movingThree {
     animation: movingThree 6s infinite;
     animation-delay: 0s;
@@ -128,26 +128,30 @@
 }
 
 .myPath:hover {
-    fill: #F3712C;
-    stroke: #F3712C;
+    fill: #30A7D3;
+    stroke: #30A7D3;
 }
 
 /*Красим мотор */
 #motor-yellow {
     position: relative;
     animation: colorChange 3s infinite;
-    fill: #F3712C;
-    stroke: #F3712C;
+    fill: #30A7D3;
+    stroke: #30A7D3;
 }
 
 @keyframes colorChange {
     0%, 100% {
-        fill: #F3712C;
-        stroke: #F3712C;
+        fill: #30A7D3;
+        stroke: #30A7D3;
     }
     50% {
         fill: #FFFFFF;
         stroke: #FFFFFF;
+    }
+    25% {
+        fill: #30A7D3;
+        stroke: #30A7D3;
     }
 }
 

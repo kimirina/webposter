@@ -1,10 +1,10 @@
 :root {
-    --color-1: #e83333;
-    --color-2: #50af50;
-    --color-3: #37babd;
-    --color-4: #9f35d7;
-    --color-5: #ff9900;
-    --color-6: #3399ff;
+    --color-1: #F4ED20;
+    --color-2: #008345;
+    --color-3: #30A7D3;
+    --color-4: #D04188;
+    --color-5: #F3712C;
+    --color-6: #0075FE;
 }
 
 path {
@@ -86,7 +86,7 @@ path {
 }
 
 
-/*Задаём стили для веревок между блоками*/
+/*Задаём стили для проводов между блоками*/
 #nlo_line1-img {
     z-index: -100;
     height: 89%;
@@ -164,8 +164,8 @@ path {
     height: 123%;
     width: 87%;
     position: absolute;
-    left: -52%;
-    top: -19%;
+    left: -53%;
+    top: -17%;
 }
 
 #details_line10-img {
@@ -340,7 +340,6 @@ path {
 }
 
 /*Стили линий после 414px экрана*/
-
 #line001-img {
     height: 50%;
     width: 41%;
@@ -525,20 +524,21 @@ path {
 }
 
 @media (max-width: 1440px) {
-    #nlo_line1-img path {
-        d: path("M1 0.971924C52.229 94.741 99.9078 85.6759 223 68");
-    }
-
     #nlo_line2-img {
-        top: 87%;
+        top: 89%;
     }
 
     #nlo_line3-img {
-        top: 88%;
+        top: 90%;
     }
 
     #nlo_line4-img {
-        top: 94%;
+        z-index: -100;
+        height: 150%;
+        width: 99%;
+        position: absolute;
+        left: -1%;
+        top: 92%;
     }
 
     #nlo_line5-img {
@@ -546,14 +546,13 @@ path {
         height: 157%;
     }
 
-    #nlo_line6-img path {
-        d: path("M490 1C287.065 183.029 193.897 171.222 0.5 160");
+    #nlo_line6-img {
+        top: 74%;
     }
 
     #nlo_line7-img {
         top: 88%;
     }
-
 }
 
 @media (max-width: 1400px) {
