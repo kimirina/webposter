@@ -13,7 +13,7 @@
 }
 @media (max-width: 414px) {
     body {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .header_description,
@@ -23,7 +23,7 @@
     .details_blocks,
     .plates_items,
     footer {
-
+        
         margin-top: 11px;
     }
 
