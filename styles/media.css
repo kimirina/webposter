@@ -33,6 +33,10 @@
     }
 
     .nlo_none {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 0.5;
+        }
         display: none;
     }
 
@@ -90,8 +94,52 @@
     #motor-svg {
         width: 407px;
         height: 200px;
-        
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
     }
+
+    #nloOne {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
+    }
+    
+    #svg {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
+    }
+
+    #nloTwo {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
+    }
+
+    #movingOne {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
+    }
+
+    #movingTwo {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
+    }
+
+    #movingThree {
+        path {
+            vector-effect: non-scaling-stroke;
+            stroke-width: 1;
+        }
 
     @keyframes moveNloCircular {
         0% {
